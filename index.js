@@ -23,3 +23,17 @@ function mapToSquare(arr) {
   }
   return arr
 }
+
+function mapToNegativize(arr) {
+  for(const e in arr) {
+    arr[e]*= -1;
+  }
+  return arr
+}
+
+function reduceToTotal(arr, start=0) {
+  for(const e in arr) {
+    start += e;
+  }
+  return arr
+}
