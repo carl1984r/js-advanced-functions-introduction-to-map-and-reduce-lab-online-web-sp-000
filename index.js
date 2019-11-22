@@ -16,3 +16,10 @@ function mapToDouble(arr) {
 function mapToNoChange(arr) {
   return arr
 }
+
+function mapToSquare(arr) {
+  for(const e in arr) {
+    arr[e]**= 2;
+  }
+  return arr
+}
