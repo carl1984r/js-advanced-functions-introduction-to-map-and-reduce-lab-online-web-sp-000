@@ -31,9 +31,9 @@ function mapToNegativize(arr) {
   return arr
 }
 
-function reduceToTotal(arr, start=0) {
+function reduceToTotal(arr, accumulator=0) {
   for(const e in arr) {
-    start += e;
+    accumulator += e;
   }
-  return start
+  return accumulator
 }
