@@ -37,3 +37,10 @@ function reduceToTotal(arr, start = 0) {
   }
   return start;
 }
+
+function reduceToAllTrue(arr) {
+  for(const e of arr) {
+    if(!e) { return false; }
+  }
+  return true;
+}
