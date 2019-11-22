@@ -44,3 +44,10 @@ function reduceToAllTrue(arr) {
   }
   return true;
 }
+
+function reduceToAnyTrue(arr) {
+  for(const e of arr) {
+    if(e) { return true; }
+  }
+  return false;
+}
