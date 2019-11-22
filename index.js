@@ -35,5 +35,5 @@ function reduceToTotal(arr, start=0) {
   for(const e in arr) {
     start += e;
   }
-  return arr
+  return start
 }
